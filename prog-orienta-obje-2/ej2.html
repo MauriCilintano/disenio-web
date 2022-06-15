@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ej2.css" >
+    <title>Ejercicio 2</title>
+    </head>
+    <body id="body">
+
+        <style>
+            #data{
+                color: #0000ff;
+                margin: auto;
+                background-color: #24303c;
+                border:darkgray;
+            }
+            
+            th{
+                color: coral;
+                font-size: medium;
+                align-content: center;
+                padding: 20px;
+                font-family: 'calibri';
+                font-size: 18px;
+            }
+            td{
+                color: coral;
+                font-size: medium;
+                align-content: center;
+                padding: 20px;
+                width: 6em;
+                font-family: 'calibri';
+                font-size: 18px;
+            }
+            img{
+                width: 100%;
+                aspect-ratio: 1;
+            }
+        </style>
+    <form>
+        
+    <section class="registros">
+        <h4>Ingreso de Datos</h4>
+        <input class="controls" type="text" id="nom" placeholder="Ingrese un nombre" required>
+
+        <input class="controls" type="file" id="img" placeholder="Ingrese una imagen:">
+
+        
+        <input class="btn botons" type="button" value="Registrar" id="btndata">
+        
+        </section>
+
+    </form>
+
+        <table id="data" border="1">
+            <p id="data2"></p>
+        </table>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/ej2.js"></script>
+        
+    </body>
+
+</html>
