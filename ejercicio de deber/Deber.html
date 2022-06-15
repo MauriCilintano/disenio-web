@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deberes</title>
+  </head>
+  <body>
+    <form>
+      <label for="millas" class="titulo">Ingrese las millas acumuladas hasta el momento:</label>
+      <input type="text" id="millas" placeholder="Ej: 1300..."/> <br />
+        <legend class="titulo">Usted Pertence al plan plus?</legend>
+        <input type="radio" name="planPlus" id="planSi" value="Si" />
+        <label for="planSi">Si</label>
+        <input type="radio" name="planPlus" id="planNo" value="No" />
+        <label for="planNo">No</label>
+      <input type="button" value="Mostrar Viajes Disponibles" id="btnmostrar">
+    </form>
+
+    <div>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/deber.js"></script>
+  </body>
+</html>
